@@ -190,10 +190,10 @@ ga('send', 'pageview');
 </nav>
       
   
-    <article id="post-study-notes/JavaScript中this指向" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-study-notes/模仿知乎界面的一个简单React demo" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/01/05/study-notes/JavaScript中this指向/" class="article-date">
+      <a href="/2017/01/05/study-notes/模仿知乎界面的一个简单React demo/" class="article-date">
   	<time datetime="2017-01-05T07:53:29.000Z" itemprop="datePublished">1月 5 2017</time>
 </a>
       
@@ -209,7 +209,7 @@ ga('send', 'pageview');
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/05/study-notes/JavaScript中this指向/">JavaScript中this指向</a>
+      <a class="article-title" href="/2017/01/05/study-notes/模仿知乎界面的一个简单React demo/">模仿知乎界面的一个简单React demo</a>
     </h1>
   
 
@@ -217,14 +217,16 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
-<p>对于JavaScript初学者来说，this指针的指向问题一直是很混乱的问题。在不同的场景下，this会化身不同的对象。有一种观点认为，只有正确掌握了<br>JavaScript 中的 this 关键字，才算是迈入了 JavaScript<br>这门语言的门槛。在主流的面向对象的语言中（例如Java,C#等)，this 含义是明确且具体的，即指向当前对象。一般在编译期绑定。而<br>JavaScript 中this 在运行期进行绑定的，这是JavaScript 中this 关键字具备多重含义的本质原因。</p>
+        <p>博客地址：<a href="http://blog.xieliqun.com/2016/11/04/react-zhihu/" target="_blank" rel="noopener">http://blog.xieliqun.com/2016/11/04/react-zhihu/</a></p>
+<blockquote>
+<p>这是一个模仿知乎界面的简单React demo。这个React demo能让你从零开始学习React，并逐渐掌握React。它包括了一个项目从零到项目完成的整个过程。</p>
 </blockquote>
-<p>随着函数使用场合的不同，this的值会发生变化。但是有一个总的原则，那就是this指的是，<strong>调用函数的那个对象</strong>。</p>
-<h2 id="1、-指向window的隐式指向"><a href="#1、-指向window的隐式指向" class="headerlink" title="1、    指向window的隐式指向"></a>1、    指向window的隐式指向</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.nama = <span class="string">"tsrot"</span>;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"hello "</span> + <span class="keyword">this</span>.name);</span><br><span class="line">&#125;</span><br><span class="line">sayHello()       <span class="comment">//hello tsrot</span></span><br></pre></td></tr></table></figure>
+<p>项目地址：<a href="https://github.com/tsrot/react-zhihu" target="_blank" rel="noopener">https://github.com/tsrot/react-zhihu</a><br>项目预览：<a href="http://blog.xieliqun.com/react-zhihu/" target="_blank" rel="noopener">http://blog.xieliqun.com/react-zhihu/</a></p>
+<p><strong>项目运行</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:<span class="comment">//github.com/tsrot/react-zhihu.git</span></span><br><span class="line">$ cd react-zhihu</span><br><span class="line"></span><br><span class="line">$ npm install</span><br><span class="line"></span><br><span class="line">$ bower install</span><br><span class="line"></span><br><span class="line">$ gulp server   <span class="comment">//用浏览器打开 localhost:5000</span></span><br></pre></td></tr></table></figure>
         
           <p class="article-more-link">
-            <a href="/2017/01/05/study-notes/JavaScript中this指向/#more">more >></a>
+            <a href="/2017/01/05/study-notes/模仿知乎界面的一个简单React demo/#more">more >></a>
           </p>
         
       
@@ -275,6 +277,58 @@ ga('send', 'pageview');
         
           <p class="article-more-link">
             <a href="/2017/01/05/study-notes/JS中的call、apply、bind方法详解/#more">more >></a>
+          </p>
+        
+      
+    </div>
+  </div>
+  
+</article>
+
+
+
+
+
+
+  
+    <article id="post-study-notes/折腾：coding.net IDE node环境的安装" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/01/05/study-notes/折腾：coding.net IDE node环境的安装/" class="article-date">
+  	<time datetime="2017-01-05T07:53:29.000Z" itemprop="datePublished">1月 5 2017</time>
+</a>
+      
+      
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/05/study-notes/折腾：coding.net IDE node环境的安装/">折腾：coding.net IDE node环境的安装</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>地址：<a href="http://blog.xieliqun.com/2016/08/27/online-IDE-node-enviroment/" target="_blank" rel="noopener">http://blog.xieliqun.com/2016/08/27/online-IDE-node-enviroment/</a></p>
+<blockquote>
+<p>作为一个码农，我们经常会有这样一个痛点：项目出现一个紧急bug，但自己又不在公司，怎办呢？虽然项目可能在git或者svn上，但clone下来安装测试环境也是个麻烦的是啊。于是，我们想到了在线IDE。作为一个前端开发者nodeJS环境是非常重要的，今天花了一个多小时折腾了下<a href="https://ide.coding.net" target="_blank" rel="noopener">coding.net</a>。</p>
+</blockquote>
+<hr>
+<h3 id="IDE介绍"><a href="#IDE介绍" class="headerlink" title="IDE介绍"></a>IDE介绍</h3><p>以前我一直在用<a href="https://nitrous.io" target="_blank" rel="noopener">nitrous.io</a>的在线IDE，它是一个国外的在线IDE，访问有点慢，一旦网络不好就掉线，挺好的地方就是，它每个月有50个小时的免费使用。coding.net相当于是一个国内版的github，也是一个远程的git仓库，它有个在线IDE还挺好用的。有终端命令面板、支持vim和 Emacs的编辑器、在线运行环境、支持git（哎，帮别人做广告了，不知道coding能不能发我点稿费）。</p>
+<p>下面进入主题。</p>
+<h3 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h3><p>nvm是nodejs版本管理工具。可以在多个nodejs版本中进行切换，降低了升级nodejs时的成本。</p>
+        
+          <p class="article-more-link">
+            <a href="/2017/01/05/study-notes/折腾：coding.net IDE node环境的安装/#more">more >></a>
           </p>
         
       
@@ -344,10 +398,10 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-study-notes/Arguments对象作用深度研究" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-study-notes/windowName跨域详解" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/01/05/study-notes/Arguments对象作用深度研究/" class="article-date">
+      <a href="/2017/01/05/study-notes/windowName跨域详解/" class="article-date">
   	<time datetime="2017-01-05T07:53:29.000Z" itemprop="datePublished">1月 5 2017</time>
 </a>
       
@@ -363,7 +417,7 @@ ga('send', 'pageview');
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/05/study-notes/Arguments对象作用深度研究/">Arguments对象作用深度研究</a>
+      <a class="article-title" href="/2017/01/05/study-notes/windowName跨域详解/">window.name跨域详解</a>
     </h1>
   
 
@@ -371,66 +425,16 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>地址：<a href="http://blog.xieliqun.com/2016/08/14/arguments/" target="_blank" rel="noopener">http://blog.xieliqun.com/2016/08/14/arguments/</a></p>
+        <p>地址：<a href="http://blog.xieliqun.com/2016/08/25/windowName-cross-domain/" target="_blank" rel="noopener">http://blog.xieliqun.com/2016/08/25/windowName-cross-domain/</a></p>
 <blockquote>
-<p>每个函数都会有一个Arguments对象实例arguments，它引用着函数的实参，可以用数组下标的方式”[]”引用arguments的元素。arguments.length为函数实参个数，arguments.callee引用函数自身。</p>
+<p> window.name属性的神奇之处在于name 值在不同的页面（甚至不同域名）加载后依旧存在（如果没修改则值不会变化），并且可以支持非常长的 name 值（2MB）。并且window.name很方便。</p>
 </blockquote>
 <hr>
-<h3 id="Arguments对象介绍"><a href="#Arguments对象介绍" class="headerlink" title="Arguments对象介绍"></a>Arguments对象介绍</h3><p>Arguments对象是一个伪数组对象，它有length属性，可以arguments[i]来访问对象中的元素，但它不能用数组的一些方法，例如push，pop，slice等。</p>
-<h4 id="Arguments的length属性"><a href="#Arguments的length属性" class="headerlink" title="Arguments的length属性"></a>Arguments的length属性</h4><p>Arguments的length属性，表示function函数实际所传参数的个数。函数名点length可以获取函数期望的传参个数。</p>
+<h3 id="用法介绍"><a href="#用法介绍" class="headerlink" title="用法介绍"></a>用法介绍</h3><p>name 在浏览器环境中是一个全局/window对象的属性，且当在 frame 中加载新页面（可以是不同域的）时，name 的属性值依旧保持不变（只要不重新赋值）。name属性的值虽然不变，但对它的访问还是受到同域原则，不允许访问。所以我们要把iframe重新定向回原域，这样name的值也没变，并且可以访问了。</p>
+<p>在最顶层，name 属性是不安全的，对于所有后续页面，设置在 name 属性中的任何信息都是可获得的。然而 windowName 模块总是在一个 iframe 中加载资源，并且一旦获取到数据，或者当你在最顶层浏览了一个新页面，这个 iframe 将被销毁，所以其他页面永远访问不到 window.name 属性。</p>
         
           <p class="article-more-link">
-            <a href="/2017/01/05/study-notes/Arguments对象作用深度研究/#more">more >></a>
-          </p>
-        
-      
-    </div>
-  </div>
-  
-</article>
-
-
-
-
-
-
-  
-    <article id="post-study-notes/JavaScript闭包(closure)" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/05/study-notes/JavaScript闭包(closure)/" class="article-date">
-  	<time datetime="2017-01-05T07:53:29.000Z" itemprop="datePublished">1月 5 2017</time>
-</a>
-      
-      
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/05/study-notes/JavaScript闭包(closure)/">JavaScript闭包（closure）</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>地址：<a href="http://blog.xieliqun.com/2016/08/07/javascript-closure/" target="_blank" rel="noopener">http://blog.xieliqun.com/2016/08/07/javascript-closure/</a></p>
-<blockquote>
-<p>JavaScript变量分为全局变量和局部变量。Javascript语言的特殊之处，就在于函数内部可以直接读取全局变量，而在函数外部自然无法读取函数内的局部变量。当你需要在函数外调用函数内的局部变量时，此时就要用到一些方法。这个过程就是闭包。</p>
-</blockquote>
-<p>###一、JavaScript为什么会有闭包这种东西<br>JavaScript没有像其它后端语言一样可以直接定义一个变量可供其它外部函数调用的关键字或者方法。于是就产生了闭包这种东西。举个例子：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//内部函数可以访问外部变量</span></span><br><span class="line"><span class="keyword">var</span> name = <span class="string">"tsrot"</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(name);</span><br><span class="line">&#125;</span><br><span class="line">f1();   <span class="comment">//tsrot</span></span><br></pre></td></tr></table></figure>
-        
-          <p class="article-more-link">
-            <a href="/2017/01/05/study-notes/JavaScript闭包(closure)/#more">more >></a>
+            <a href="/2017/01/05/study-notes/windowName跨域详解/#more">more >></a>
           </p>
         
       
